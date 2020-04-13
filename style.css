@@ -1,0 +1,144 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    color: #626262
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.container__content {
+    width: 899px;
+    margin: 0 auto;
+}
+
+.name__photo {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 192px;
+    padding-top: 79px;
+    padding-bottom: 100px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a:hover {
+    color: #03a9f4;
+}
+
+a {
+    text-decoration: none;
+    color: #626262;
+}
+    
+.main__content li {
+    display: inline-block;
+    margin-right: 54px;
+}
+
+.main__content li:nth-child(2n) {
+    margin-right: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.lifestyle {
+    margin-right: 121px;
+}
+
+.photodiary {
+    margin-right: 103px;
+}
+
+.music {
+    margin-right: 95px;
+}
+
+.festival {
+    width: 420px;
+    height: 477px;
+    margin-bottom: 132px;
+}
+
+.coffee {
+    width: 420px;
+    height: 477px;
+    margin-bottom: 132px;
+}
+
+.dream {
+    width: 420px;
+    height: 477px;
+    margin-bottom: 138px;
+}
+
+.alps {
+    width: 420px;
+    height: 477px;
+    margin-bottom: 138px;
+}
+
+.run {
+    width: 420px;
+    height: 477px;
+}
+
+.road {
+    width: 420px;
+    height: 477px;
+}
+
+.name__photo {
+    margin-top: 32px;
+    margin-bottom: 28px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text__photo {
+    margin-top: 34px;
+    font-size: 14px;
+}
+
+.footer {
+    height: 184px;
+    padding-top: 54px;
+    padding-bottom: 70px;
+}
+
+.footer_btn {
+    text-align: center;
+}
+
+.btn {
+    width: 164px;
+    height: 60px;
+    border: 1px solid #000000;
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #626262;
+}
+
