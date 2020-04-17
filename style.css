@@ -7,11 +7,11 @@ html {
 *::after {
     box-sizing: inherit;
     margin: 0;
-    color: #626262
 }
 
 body {
     font-family: 'Playfair Display', serif;
+    color: #626262
 }
 
 .container__content {
@@ -30,20 +30,21 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-    height: 192px;
     padding-top: 79px;
     padding-bottom: 100px;
 }
 
 .nav li {
     display: inline-block;
+    margin-right: 53px;
+    
 }
 
-.nav a:hover {
+.nav p:hover {
     color: #03a9f4;
 }
 
-a {
+p .nav__p {
     text-decoration: none;
     color: #626262;
 }
@@ -61,69 +62,31 @@ ul {
     padding: 0;
 }
 
-.lifestyle {
-    margin-right: 121px;
-}
-
-.photodiary {
-    margin-right: 103px;
-}
-
-.music {
-    margin-right: 95px;
-}
-
-.festival {
-    width: 420px;
-    height: 477px;
-    margin-bottom: 132px;
-}
-
-.coffee {
-    width: 420px;
-    height: 477px;
-    margin-bottom: 132px;
-}
-
-.dream {
-    width: 420px;
-    height: 477px;
-    margin-bottom: 138px;
-}
-
-.alps {
-    width: 420px;
-    height: 477px;
-    margin-bottom: 138px;
-}
-
-.run {
-    width: 420px;
-    height: 477px;
-}
-
-.road {
-    width: 420px;
-    height: 477px;
+img {
+    margin-bottom: 32px;
 }
 
 .name__photo {
-    margin-top: 32px;
     margin-bottom: 28px;
+    font-weight: 300;
 }
 
 h2 {
     font-size: 30px;
     font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.main__li {
+    width: 420px;
+    margin-bottom: 132px;
 }
 
 .text__photo {
-    margin-top: 34px;
     font-size: 14px;
 }
 
 .footer {
-    height: 184px;
     padding-top: 54px;
     padding-bottom: 70px;
 }
@@ -141,4 +104,3 @@ h2 {
     font-size: 20px;
     color: #626262;
 }
-
