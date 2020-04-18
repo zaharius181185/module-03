@@ -37,14 +37,13 @@ body {
 .nav li {
     display: inline-block;
     margin-right: 53px;
-    
 }
 
-.nav p:hover {
+.nav__p:hover {
     color: #03a9f4;
 }
 
-p .nav__p {
+.nav__p {
     text-decoration: none;
     color: #626262;
 }
@@ -86,13 +85,9 @@ h2 {
     font-size: 14px;
 }
 
-.footer {
-    padding-top: 54px;
-    padding-bottom: 70px;
-}
-
 .footer_btn {
     text-align: center;
+    padding-bottom: 70px;
 }
 
 .btn {
